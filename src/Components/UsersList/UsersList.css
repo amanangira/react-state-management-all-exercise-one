@@ -1,0 +1,57 @@
+.Users-list {
+	padding: 25px;
+    width: 40%;
+}
+
+.toggle-button {
+  font-size: 16px;
+  background: transparent;
+  border: none;
+  color: #999;
+  padding: 5px 10px;
+}
+
+.toggle-button:hover {
+  color: #fff;
+}
+
+.toggle-button.active {
+  color: #333;
+}
+
+.toggle-button-container {
+  text-align: right;
+}
+
+.users {
+	list-style-type: none;
+	padding: 0;
+}
+
+.users li {
+  color: #333;
+  background: #eeeeee;
+  padding: 10px;
+  border: 1px solid #eeeeee;
+  border-radius:5px;
+}
+
+.users li span.username {
+  color: #3cb0fd;
+}
+
+.users li div.remove {
+	border: 1px solid #555;
+  	border-radius: 20px;
+	height: 15px;
+  	width: 15px;
+  	padding: 5px;
+  	text-align: center;
+  	cursor: pointer;
+}
+
+.users li div.remove:hover {
+	background: #3cb0fd;
+  	color: #fff;
+  	border-color: #3cb0fd;
+}
